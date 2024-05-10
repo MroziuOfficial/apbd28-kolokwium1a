@@ -97,4 +97,9 @@ public class BooksRepository : IBooksRepository
         }
         return book;
     }
+
+    public Task<BookDTO> addBookGenre(NewBook newBook)
+    {
+        throw new NotImplementedException();
+    }
 }
